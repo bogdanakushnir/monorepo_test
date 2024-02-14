@@ -9,6 +9,8 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.Set;
+import java.util.Set;
 
 public class TestMain {
 
@@ -47,6 +49,10 @@ public class TestMain {
 
   public void setOthersPermissionsHardCoded(String filePath ) throws IOException {
     Files.setPosixFilePermissions(Paths.get(filePath), PosixFilePermissions.fromString("rwxrwxrwx")); // Sensitive
+//    werewt
+//      sdfsdf
+//      sdfsdf
+
   }
 
 

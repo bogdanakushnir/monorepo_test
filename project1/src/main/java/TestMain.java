@@ -49,5 +49,9 @@ public class TestMain {
     Files.setPosixFilePermissions(Paths.get(filePath), PosixFilePermissions.fromString("rwxrwxrwx")); // Sensitive
   }
 
+  public void newMethod(){
+
+  }
+
 
 }
